@@ -13,9 +13,9 @@ const numbersGreen = document.querySelector("#green");
 for(let i = 0; i < listNumbers.length; i++){
     let numbers  = listNumbers[i];
     if(numbers % 2 !== 0) {
-    numbersRed.append(numbers);
+    numbersRed.append(numbers + " ");
     } else {
-        numbersGreen.append(numbers);
+        numbersGreen.append(numbers + " ");
     }
 }
 
